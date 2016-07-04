@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "99174033741",
+    "project_id": "frand-e3d2f"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99174033741:android:521d1918d4f6d968",
+        "android_client_info": {
+          "package_name": "com.tmfrand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0BjMWc7MR7OvvsieBM51XfgK5b0lnsy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

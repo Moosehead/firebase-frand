@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tmfrand.app">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- needed for older devices -
+   used to check app background / foreground status -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- START Added for GCM -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission
+        android:name="info.androidhive.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.tmfrand.permission.C2D_MESSAGE" />
+    <!-- END Added for GCM -->
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.tmfrand.app.Application"
+        android:targetPackage="com.tmfrand.app"
+        android:debuggable="true"
+        >
+        <activity
+
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+
+        </activity>
+
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            >
+        </activity>
+
+<!-- Facebook Configuration -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /GN- GCM -->
+    </application>
+
+    </manifest>

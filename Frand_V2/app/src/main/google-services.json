@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "47102892742",
+    "firebase_url": "https://frand-6ddcc.firebaseio.com",
+    "project_id": "frand-6ddcc",
+    "storage_bucket": "frand-6ddcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47102892742:android:521d1918d4f6d968",
+        "android_client_info": {
+          "package_name": "com.tmfrand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47102892742-b6ejaqg6s5jhl77qjmes7dhdji8cnksi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmfrand",
+            "certificate_hash": "BEC5FF75D2F35A7DDE4B6CB04ABD5A34F66F102F"
+          }
+        },
+        {
+          "client_id": "47102892742-cnq8rlc1e1qai20ddnik8ifo70fus6b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47102892742-cnq8rlc1e1qai20ddnik8ifo70fus6b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

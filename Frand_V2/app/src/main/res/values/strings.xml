@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Frand</string>
+    <string name="facebook_app_id">1675342092783363</string>
+
+    <!-- REQUIRED FOR GENERAL APP FUNCTIONALITY - YOU MAY WANT TO KEEP THESE -->
+
+    <string name="main_nav_menu_item_home">Home</string>
+    <string name="title_activity_item_detail">Item Detail</string>
+    <string name="title_activity_item_list">Item List</string>
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_activity_sign_in">Sign-in</string>
+    <string name="button_text_sign_in">SIGN IN</string>
+    <string name="button_text_sign_out">SIGN OUT</string>
+    <string name="main_nav_menu_default_user_text">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+</resources>
